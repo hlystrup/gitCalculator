@@ -1,3 +1,12 @@
+/**
+ *  This is a simple Java class changing a string to an array of integers
+ *
+ * @param String
+ * @return int[]
+ * @author Havard Lystrup
+ * @version 1.0
+ */
+
 package com.codebind;
 
 public class Parser {

@@ -1,3 +1,10 @@
+/**
+ *  This is a calculator written in the Java language, built on stack use and precedence
+ *
+ * @author Havard Lystrup
+ * @version 1.0
+ */
+
 package com.codebind;
 
 public class Calc {

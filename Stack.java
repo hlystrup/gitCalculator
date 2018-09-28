@@ -1,3 +1,10 @@
+/**
+ *  This is a basic java class for the stack data structure
+ *
+ * @author Havard Lystrup
+ * @version 1.0
+ */
+
 package com.codebind;
 
 public class Stack {

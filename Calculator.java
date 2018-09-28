@@ -1,3 +1,11 @@
+/**
+ *  This is a GUI based calculator  written in the Java language
+ *
+ * @author Havard Lystrup
+ * @version 1.0
+ */
+
+
 package com.codebind;
 
 import javax.swing.*;
@@ -132,6 +140,10 @@ public class Calculator {
         equals.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
+                /**
+                 * Taking the input string from the text field and using the other classes in calculating the result,
+                 * before displaying the answer in the text field
+                 */
                 String userInput = helloTextField.getText();
                 Calc calc1 = new Calc();
                 calc1.stringToParser(userInput);
