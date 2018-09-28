@@ -151,7 +151,7 @@ public class Calculator {
                     int answer = calc1.calculate();
                     String Answer = Integer.toString(answer);
                     helloTextField.setText(Answer);
-                } else {helloTextField.setText("Invalid Input");}
+                } else {helloTextField.setText("Invalid Input ");}
             }
         });
         cButton.addMouseListener(new MouseAdapter() {
