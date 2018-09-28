@@ -135,9 +135,11 @@ public class Calculator {
                 String userInput = helloTextField.getText();
                 Calc calc1 = new Calc();
                 calc1.stringToParser(userInput);
-                int answer = calc1.calculate();
-                String Answer = Integer.toString(answer);
-                helloTextField.setText(Answer);
+                if (calc1.checkString(userInput)) {
+                    int answer = calc1.calculate();
+                    String Answer = Integer.toString(answer);
+                    helloTextField.setText(Answer);
+                } else {helloTextField.setText("Invalid Input");}
             }
         });
         cButton.addMouseListener(new MouseAdapter() {
