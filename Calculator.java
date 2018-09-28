@@ -35,7 +35,6 @@ public class Calculator {
         plus.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
-                System.out.println("Hello");
                 helloTextField.setText(helloTextField.getText() + "+");
             }
         });
